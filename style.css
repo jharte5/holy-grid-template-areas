@@ -5,6 +5,8 @@
                         "nav article-1 ad-area"
                         "nav article-2 ad-area"
                         "footer footer footer";
+  grid-template-rows: [start] 20% [trip1] 30% [trip2] 30% [trip3] 20% [end];
+  grid-template-columns: [start] 15% [twin1] 60% [twin2] 25% [end]
 }
 
 #header, #footer {
